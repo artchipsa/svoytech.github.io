@@ -1,0 +1,186 @@
+@import "bootstrap.min.css";
+
+
+/*IPHONE*/
+.content{
+	width: 100%;
+	height: 1380px;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.menu-wrapp{
+	margin-top: 435px;
+	display: none;
+}
+.menu-wrapp .menu{
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+}
+.menu-wrapp .menu ul{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 14px;
+	text-align: center;
+}
+.menu-wrapp .menu ul li{
+	margin-bottom: 35px;	
+}
+.menu-wrapp .menu ul li a{
+	color: #594e3b;
+	letter-spacing: 2px;
+}
+.menu-wrapp .menu.left-side{
+	float: left;
+	margin-left: 70px;
+}
+.menu-wrapp .menu.right-side{
+	float: right;
+	margin-right: 50px;
+}
+.navbar{
+	display: block;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none!important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    margin-top: 24px;
+    background-color: rgba(0,0,0,.5);
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar{
+	display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 1px;
+}
+.navbar-nav{
+	background-color: rgba(0,0,0,.5);
+}
+.navbar-default .navbar-nav>li>a{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+/*  IPADS  */
+@media (min-width: 768px){
+	.navbar{
+		display: none;
+	}
+	.content {
+	    width: 100%;
+	    height: 1245px;
+	    background-image: url("../img/bg.jpg");
+	    background-size: 160%;
+	    background-position: 50% 0px;
+	    background-repeat: no-repeat;
+	}
+	.menu-wrapp {
+	    margin-top: 295px;
+	    display: block;
+	}
+	.menu-wrapp .menu ul li {
+	    margin-bottom: 22px;
+	}
+	.menu-wrapp .menu.right-side {
+	    float: right;
+	    margin-right: 25px;
+	}
+	.menu-wrapp .menu ul li a {
+	    color: #594e3b;
+	    letter-spacing: 0px;
+	}
+	.menu-wrapp .menu.left-side {
+	    float: left;
+	    margin-left: 37px;
+	}
+	.menu-wrapp .menu ul {
+		font-size: 11px;
+	}
+}
+@media (min-width: 992px){
+	.navbar{
+		display: none;
+	}
+	.content {
+	    width: 100%;
+	    height: 1158px;
+	    background-image: url("../img/bg.jpg");
+	    background-size: 156%;
+	    background-position: 50% 0px;
+	    background-repeat: no-repeat;
+	}
+	.menu-wrapp {
+    	margin-top: 392px;
+    	display: block;
+	}
+	.menu-wrapp .menu ul li a{
+		letter-spacing: 1px;
+	    color: #594e3b;
+	}
+	.menu-wrapp .menu.left-side {
+	    float: left;
+	    margin-left: 46px;
+	}
+	.menu-wrapp .menu.right-side {
+	    float: right;
+	    margin-right: 29px;
+	}
+	.menu-wrapp .menu ul {
+		font-size: 14px;
+	}
+}
+@media (min-width: 1200px){
+	.navbar{
+		display: none;
+	}
+	.container {
+    	width: 1170px;
+	}
+	.content{
+		width: 100%;
+		height: 1380px;
+		background-image: url("../img/bg.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.menu-wrapp{
+		margin-top: 468px;
+		display: block;
+	}
+	.menu-wrapp .menu{
+		font-family: 'Merriweather', serif;
+		text-transform: uppercase;
+	}
+	.menu-wrapp .menu ul{
+		list-style: none;
+		padding-left: 0px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.menu-wrapp .menu ul li{
+		margin-bottom: 35px;	
+	}
+	.menu-wrapp .menu ul li a{
+		color: #594e3b;
+		letter-spacing: 2px;
+	}
+	.menu-wrapp .menu.left-side{
+		float: left;
+		margin-left: 70px;
+	}
+	.menu-wrapp .menu.right-side{
+		float: right;
+		margin-right: 50px;
+	}
+}
